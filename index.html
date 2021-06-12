@@ -24,12 +24,14 @@
     <div id="title">
       <header>TODO LIST</header>
     </div>
-    <form id="form" onsubmit="handleSubmit()">
-      <input type="text" placeholder="Type a task here..." />
-      <button id="btnAdd" type="submit">
+    <form id="form">
+      <input id="inputTodo" type="text" placeholder="Type a task here..." />
+      <button id="btnAddTodo" type="submit">
         <i class="fas fa-plus-square"></i>
       </button>
     </form>
-    <div id="todo-list-container"></div>
+    <div id="todo-list-container">
+      <ul id="todo-list"></ul>
+    </div>
   </body>
 </html>
