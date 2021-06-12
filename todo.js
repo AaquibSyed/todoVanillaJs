@@ -1,3 +1,3 @@
 function handleSubmit() {
-  console.log("have been submitted");
+  alert("button clicked");
 }
