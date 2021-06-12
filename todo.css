@@ -39,13 +39,13 @@ form input {
 
 form button {
   background: white;
-  color: #009df2;
+  color: #f20000;
   cursor: pointer;
   transition: all 0.3s ease-in;
 }
 
 form button:hover {
   color: white;
-  background: #009df2;
+  background: #f20000;
   transition: all 0.2s ease-in;
 }
